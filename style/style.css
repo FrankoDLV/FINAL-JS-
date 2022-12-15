@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  background: rgb(150, 150, 235);
+  border-bottom: 3px solid rgb(65, 65, 178);
+}
+
+.presentacionImagen img {
+  width: 100%;
+}
+
+header h1 {
+  text-align: center;
+  align-items: center;
+  color: rgb(216, 216, 216);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serifs;
+  font-size: 60px;
+}
+
+header a {
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 50px;
+  margin: 20px auto;
+}
+
+.carrito  {
+  background: rgb(115, 190, 231);
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  transition: all 0.5s ease-in-out;
+}
+
+.carrito:hover {
+  background-color: white;
+  color:blue;
+  padding: 25px;
+  border: 1px solid black;
+}
+
+.productos_container {
+  max-width: 100%;
+  margin: 10px 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.producto_card {
+  max-width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  border: 3.5px solid rgb(161, 152, 152);
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.producto_card img {
+  width: 50%;
+  object-fit: contain;
+}
+
+.producto_card h3 {
+  color: rgb(155, 128, 128);
+}
+
+.producto_card a {
+  background-color: rgb(225, 79, 79);
+  border-radius: 5px;
+  color: white;
+  padding: 5px 25px;
+  text-decoration: none;
+  padding: 10px;
+ 
+}
+
+.producto_card:hover {
+  border:5px solid rgb(61, 45, 45);
+  padding: 17px;
+}
+
+li {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li img {
+  width: 50px;
+}
+
+.menu {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+li div {
+  display: flex;
+  align-items: center;
+}
+
+.bx {
+  color: red;
+  font-size: 24px;
+}
